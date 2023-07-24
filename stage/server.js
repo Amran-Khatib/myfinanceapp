@@ -13,7 +13,7 @@ const nodemailer = require('nodemailer');
 
 
 app.use(express.static('project/build'))
-db.connect('mongodb+srv://amrankh:amran123456789@cluster0.h1zeroj.mongodb.net/Tickers').then(()=>{
+db.connect('mongodb+srv://amrankh:amran123456789@cluster0.h1zeroj.mongodb.net/TickersList').then(()=>{
     console.log('db on!!');
 })
 
